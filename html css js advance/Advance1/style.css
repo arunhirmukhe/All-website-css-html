@@ -1,0 +1,135 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+ul{
+   list-style: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: #333;
+}
+
+li{
+    float: left;
+}
+
+#log{
+    float: right;
+}
+/* .nav{
+    background-color: rgb(15, 2, 2);
+    text-align: center;
+} */
+
+li a{
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    color: rgb(234, 224, 224);
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 33px;
+    padding-bottom: 33px;
+}
+
+li a:hover{
+    background-color: #111;
+}
+
+
+body{
+    background-image: url(wallpaper1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+} 
+
+.div1{
+    float: left;
+}
+
+.div2{
+    float: right;
+    display: block;
+ }
+
+.div3{
+    width: 10cm;
+    border: 1cm solid white;
+    background-color: rgb(202, 200, 200);
+    padding: 1cm;
+    border-radius: 1cm;
+    margin: 1cm;
+
+}
+
+
+
+img{
+    width: 140px;
+    height: 80px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 4cm;
+    margin-right: 2cm;
+}
+
+@media screen and (max-width: 480px){
+    .grid{
+        display: grid;
+        grid-template-columns: auto;
+        margin-left: 4cm;
+        margin-right: 2cm;
+    }
+
+    .div1{
+        float: left;
+    }
+    
+    .div2{
+        float: left;
+        display: block;
+     }
+
+     .div3{
+        width: 7cm;
+        border: 1cm solid white;
+        background-color: rgb(202, 200, 200);
+        border-radius: 1cm;
+        margin-left: -3.1cm;
+        margin-right: 0;
+    }
+    li{
+        float: none;
+    }
+    #log{
+        float: none;
+    }
+    img{
+        width: 140px;
+        height: 80px;
+        margin-left: 4.5cm;
+        margin-right: 4.5cm;
+    }
+    
+   li a{
+      text-decoration: none;
+      text-align: center;
+      display: block;
+      color: rgb(234, 224, 224);
+      padding-left: 20px;
+      padding-right: 20px;
+      padding-top: 33px;
+      padding-bottom: 33px;
+    }
+
+    li a:hover{
+        background-color: #111;
+    }
+    
+}

@@ -1,0 +1,29 @@
+
+h1{
+    text-shadow: 5px 5px 5px;
+    color: rgb(12, 12, 14);
+}
+
+a:link{
+    color: yellow;
+}
+
+a:hover{
+    color: black;
+}
+
+a:visited{
+    color: blue;
+}
+
+a:active{
+    color: violet;
+}
+
+ul{
+    list-style-image: url('https://www.google.com/search?q=best+logo&sxsrf=APq-WBvl9SNMYqc222od_SGa1flhvFOceg:1645761367941&tbm=isch&source=iu&ictx=1&vet=1&fir=xYY0OgF4tRtE3M%252CgqG23wPxURVnmM%252C_%253B9AAojTwznqR_GM%252CouKjfYTivW45EM%252C_%253BJcoixBiGVdxLVM%252C97tO7jcNxmFJOM%252C_%253BRdUwpJfgqj5JrM%252COijmoeOPvDOCNM%252C_%253BIMsX4MCMa9-deM%252Cj1F6STy-0v8aWM%252C_%253B8X2rZJuOt853WM%252CQPvPPIceOegwMM%252C_%253Bx73OrgjMVDJU7M%252CXpdL_X2sUYo4TM%252C_%253BpRnSVdWYdsLVFM%252Cr2iBWHDarKHzSM%252C_%253B12krgi4yMBvjwM%252Cd3rUKdqo4FOYqM%252C_%253Bw8Lkjay5GbeTQM%252CIGNAE8Dqod8ARM%252C_%253BwAhzGEuoL9bWbM%252Cd3rUKdqo4FOYqM%252C_%253B2hMF8gOhK3H2MM%252CHxFh8aId5MU5OM%252C_%253BauoFcuCnaCzmEM%252CpO8Dt3rbZVm52M%252C_&usg=AI4_-kT7g-eMXFxum22mJIUYeY1J2nf5Tg&sa=X&ved=2ahUKEwjFjeLt-pn2AhVQct4KHTpYD2IQ9QF6BAgdEAE#imgrc=RdUwpJfgqj5JrM');
+}
+
+body{
+    background-color: antiquewhite;
+}

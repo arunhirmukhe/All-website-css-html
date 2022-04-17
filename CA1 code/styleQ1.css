@@ -1,0 +1,41 @@
+tr,th,table{
+    border: 1px solid black;
+    background-color:rgb(58, 204, 253);
+}
+th{
+    width: 100px;
+    height: 50px;
+}
+table{
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.tab{
+    text-align: center;
+    background-color: rgb(58, 204, 253);
+    width: 27cm;
+    height: 13cm;
+}
+h1{
+    color:rgb(58, 90, 104);
+}
+.c1{
+    color: rgb(1, 1, 250);
+}
+.c2{
+    color: rgb(255, 2, 2);
+}
+.c3{
+    color: orange;
+}
+.c4{
+    color: pink;
+}
+.c5{
+   color: green;
+}
+.c6{
+   color: brown;
+}

@@ -1,0 +1,29 @@
+*{
+    padding:5px;
+    margin: 5px;
+}
+
+table,tr{
+    text-align: left;
+    padding:10px 20px;
+
+}
+table{
+    border: 0.5cm solid;
+    border-radius: 2cm;
+}
+.sub{
+    text-align:center;
+}
+
+.reg{
+    /* margin-left: auto;
+    margin-right: auto; */
+    text-align: center;
+    /* background-color: aqua; */
+}
+.tab{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: aqua;
+}

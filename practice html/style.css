@@ -1,0 +1,59 @@
+*{
+  padding: 0cm;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+body{
+  padding-top: 1cm;
+}
+
+#item{ 
+  background-color: rgb(235, 141, 11);
+  width: auto;
+  height: 14.2cm;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+form{
+    background-color: blanchedalmond;
+    margin-top: 20px;
+    border: solid;
+    border-color: black;
+    border-radius: 50px;
+    padding: 20px;
+}
+form h1 {
+  font-size: 35px;
+}
+.items {
+  padding: 10px;
+}
+.labels {
+  margin: 10px;
+  width: 35px;
+}
+.inputs {
+  margin-left: 15px;
+  text-align: center;
+}
+#submitbtn {
+  margin-left: 40%;
+  margin-right: 50%;
+}
+#gender-opts {
+  margin-left: 135px;
+  list-style: none;
+}
+#age {
+  width: 150px;
+}
+input[type="text"]:hover,
+input[type="number"]:hover {
+  background-color: bisque;
+}
